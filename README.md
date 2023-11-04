@@ -91,8 +91,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-* Dev-C++
-* Git
+* Dev-C++ (or CodeBlocks, VSCode, etc.)
+* Git (Recommended)
+* Winrar (or any unzip software)
 
 ### Installation
 
@@ -111,7 +112,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Open the folder named "C" and enjoy :)
+Open the folder "C" and enjoy :)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +123,7 @@ Open the folder named "C" and enjoy :)
 
 - [x] Add Changelog
 - [x] Add back to top links
-- [ ] Add Solution Codes
+- [ ] Add Full Solution Codes
 - [ ] Multi-language Support
     - [ ] Vietnamese
 

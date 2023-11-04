@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.1
+
+### Added or Changed
+- Cleaning code from 31 to 60
+- Remove unused comments
+- Change names, such as 1 -> 01, 2 -> 02, etc.
+
+
+
 ## v1.0.0
 
 ### Added or Changed
