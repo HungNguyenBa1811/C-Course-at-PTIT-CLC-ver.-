@@ -15,15 +15,11 @@ int main(){
         while(n_cpy > 0){
             remain = n_cpy % 10;
             factorial = 1;
-            for(int i = 1; i <= remain; i++){
-                factorial *= i;
-            }
+            for(int i = 1; i <= remain; i++) factorial *= i;
             sum += factorial;
             n_cpy /= 10;
         }
-        if(sum == n_last){
-            printf("%d ", n_last);
-        }
+        if(sum == n_last) printf("%d ", n_last);
     }
     return 0;
 }

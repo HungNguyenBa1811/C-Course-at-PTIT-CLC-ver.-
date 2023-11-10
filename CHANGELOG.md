@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.2
+
+### Added or Changed
+- Adding code from 61 to 98
+- Cleaning code from 61 to 70
+
+
+
 ## v1.0.1
 
 ### Added or Changed
