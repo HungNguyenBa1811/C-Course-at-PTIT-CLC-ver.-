@@ -5,7 +5,7 @@
 int main(){
 	char c[10000];
 	int digit = 0, letter = 0, other = 0;
-	gets(c)
+	gets(c);
 	int len = strlen(c);
 	for(int i = 0; i < len; i++){
 		if(isdigit(c[i])){
