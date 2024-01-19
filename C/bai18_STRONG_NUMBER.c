@@ -4,7 +4,7 @@ int main(){
     int n, temp, remain, factorial, i, sum = 0;
     scanf("%d", &n);
     temp = n;
-    while(num > 0){
+    while(n > 0){
         remain = n % 10;
         factorial = 1;
         i = 1;

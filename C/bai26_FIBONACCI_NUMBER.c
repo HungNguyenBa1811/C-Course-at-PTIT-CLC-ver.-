@@ -10,7 +10,7 @@ int main(){
             printf("1\n");
         } else {
             for(int i = 0; i < n - 2; i++){
-                result = a + b;
+                ans = a + b;
                 b = a;
                 a = ans;
             }

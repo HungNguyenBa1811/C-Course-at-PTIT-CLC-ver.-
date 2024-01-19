@@ -11,7 +11,7 @@ int main(){
 			continue;
 		}
 		if(n % 2 == 0 || n % 3 == 0 || n < 2){
-			printf("NO\n")
+			printf("NO\n");
 			continue;
 		}
 		for(int i = 5; i * i <= n; i += 6){

@@ -7,17 +7,10 @@ int main(){
     while(cases--){
         scanf("%d", &n);
 		int first, last = n % 10;
-		for(int i = 1; i <= 9; i++){
-	        if(n / (int) pow(10, i) != 0){
-	            first = num / (int) pow(10, i);
-	            if(first == last){
-	                printf("YES\n");
-	            } else {
-	                printf("NO\n");
-	            }
-	        	break;
-	    	}
-		}
+		while (n > 9) n /= 10;
+		first = n;
+		(first == last) ? printf("YES\n") : printf("NO\n");
     }
     return 0;
 }
+

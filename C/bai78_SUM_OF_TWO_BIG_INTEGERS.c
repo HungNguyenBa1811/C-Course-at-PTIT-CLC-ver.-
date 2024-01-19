@@ -5,11 +5,12 @@ int main(){
 	int cases;
 	scanf("%d\n", &cases);
 	while(cases--){
-		char c[505], d[505];
+		char c[5005], d[5005];
 		gets(c);
+		getchar();
 		gets(d);
 		int max_len = (strlen(c) >= strlen(d)) ? strlen(c) : strlen(d);
-		int a[505] = {0}, b[505] = {0}, ans[505] = {0};
+		int a[5005] = {0}, b[5005] = {0}, ans[5005] = {0};
 		for(int i = strlen(c) - 1; i >= 0; i--){
 			a[strlen(c) - 1 - i] = c[i] - '0';
 		}
